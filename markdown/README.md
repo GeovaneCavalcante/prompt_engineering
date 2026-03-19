@@ -5,32 +5,39 @@ Este diretório organiza os exemplos por técnica de prompting.
 ## Índice
 
 ### Zero-Shot
+
 - [Exemplo 1](./zero_shot/1.md)
 
 ### Few-Shot
+
 - [Exemplo 1](./few_shot/1.md)
 
 ### Chain-of-Thought
+
 - [Exemplo 1](./chain_of_thought/1.md)
 - [Exemplo 2](./chain_of_thought/2.md)
 - [Exemplo 3](./chain_of_thought/3.md)
 
 ### Tree-of-Thought
+
 - [Exemplo 1](./tree_of_thought/1.md)
 - [Exemplo 2](./tree_of_thought/2.md)
 - [Exemplo 3](./tree_of_thought/3.md)
 
 ### ReAct
+
 - [Exemplo 1](./react/1.md)
 - [Exemplo 2](./react/2.md)
 - [Exemplo 3](./react/3.md)
 
 ### Skeleton-of-Thought
+
 - [Exemplo 1](./skeleton_of_thought/1.md)
 - [Exemplo 2](./skeleton_of_thought/2.md)
 - [Exemplo 3](./skeleton_of_thought/3.md)
 
 ### Self-Consistency
+
 - [Exemplo 1](./self_consistency/1.md)
 - [Exemplo 2](./self_consistency/2.md)
 - [Exemplo 3](./self_consistency/3.md)
@@ -62,15 +69,3 @@ As tabelas abaixo separam capacidade técnica de uso prático. A primeira mostra
 | Tree-of-Thought | Ramificação e comparação entre alternativas plausíveis | Consulta a sistemas externos e execução de ações reais |
 | ReAct | Ciclo de pensamento, ação e observação com evidência externa | Escolha da melhor resposta por maioria e análise ampla de múltiplas estratégias |
 | Self-Consistency | Seleção da resposta final mais recorrente entre tentativas independentes | Ferramentas externas, estrutura rígida e exploração deliberada de hipóteses |
-
-### Exemplos do projeto
-
-| Técnica | Exemplo no projeto | Por que encaixa |
-| --- | --- | --- |
-| Zero-Shot | Extração simples de dados de um CSV | A instrução direta já é suficiente para executar a tarefa |
-| Few-Shot | Extração de CSV seguindo um formato ensinado por exemplos | O modelo aprende o padrão de saída antes de processar a entrada real |
-| Chain-of-Thought | Extração de CSV com explicação passo a passo | O foco é tornar o raciocínio verificável antes da resposta final |
-| Skeleton-of-Thought | Explicação de autenticação JWT em duas fases | Primeiro define a estrutura, depois expande cada tópico |
-| Tree-of-Thought | Investigação de latência em API com múltiplas hipóteses | O problema pede exploração e comparação de caminhos antes da decisão |
-| ReAct | Atendimento de suporte com verificação e desbloqueio de conta | O fluxo depende de consultar ferramentas, observar resultados e agir |
-| Self-Consistency | Cálculo de reembolso por múltiplas resoluções independentes | A confiabilidade vem da recorrência da resposta final entre tentativas |
